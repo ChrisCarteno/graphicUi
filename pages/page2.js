@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 
 export default function page2(){
     return(
@@ -14,6 +16,9 @@ export default function page2(){
                 loading screens when web pages take a long time to
                 load.
             </p>
+            <Link href="/" passHref>
+                <button> Go to home page</button>
+            </Link>
         </div>
     )
 }
